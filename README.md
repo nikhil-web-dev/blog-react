@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+<a href="/blog-img/blog.png"><img src="/blog-img/blog.png" height="60%" width="60%" ></a>
+<a href="/blog-img/blog2.png"><img src="/blog-img/blog2.png" height="60%" width="60%" ></a>
+<a href="/blog-img/blog3.png"><img src="/blog-img/blog3.png" height="60%" width="60%" ></a>
+<a href="/blog-img/blog4.png"><img src="/blog-img/blog4.png" height="60%" width="60%" ></a>
+<a href="/blog-img/blog5.png"><img src="/blog-img/blog5.png" height="60%" width="60%" ></a>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
