@@ -1,0 +1,112 @@
+.navbgcolor {
+    background-color: #393e46;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .google {
+    background-color: white;
+  }
+
+  .google:hover {
+    background-color: #393e46;
+    color:white;
+    border-color: aliceblue;
+  }
+
+  /* Default page styles*/
+  
+  .pageBg{
+    padding: 5% 0%;
+    background-color: #222831;
+    min-height: 100vh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .pageBg::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blogCard{
+      background-color: #eeeeee !important;
+      color:#393e46;
+  }
+  .trans_card{
+    transition: transform .2s; /* Animation */
+  }
+  .trans_card:hover{
+    transform: scale(1.1); 
+  }
+
+  .home_blog_card{
+    margin-bottom: 2%;
+  }
+
+  .createForm{
+    padding: 10px;
+  }
+
+  input[type="text"], textarea{
+    background: transparent !important;
+    border-width: 0px 0px 2px 0px !important;
+    color: #eeeeee;
+  }
+
+  input[type="text"]:focus, textarea:focus{
+    background: transparent !important;
+    border-width: 0px 0px 2px 0px !important;
+    color: #eeeeee !important
+  }
+
+
+  .profile_avatar{
+    width: 90px;
+    border-radius: 90%;
+    border: 2px solid #00adb5;
+    padding:5px
+  }
+
+  @media (min-width: 576px)
+  {
+  .card-columns-home {
+      column-count: 2;
+      -webkit-column-gap: 1.25rem;
+      -moz-column-gap: 1.25rem;
+      grid-column-gap: 1.25rem;
+      column-gap: 1.25rem;
+      orphans: 1;
+      widows: 1;
+  }
+
+
+  }
+
+  .right_container_top, .right_container_bottom{
+   display: none !important;
+  }
+
+  @media (min-width: 769px){
+    .right_container_top, .right_container_bottom{
+      display: block !important;
+     }
+  }
+  @media (min-width: 1200px)
+    {
+    .right_container_top{
+        display: block !important;
+        position: fixed !important;
+        background: #eeeeee;
+        width:20%;
+      }
+
+      .right_container_bottom{
+        display: block !important;
+        position: fixed !important;
+        top: 30%;
+        background: #eeeeee;
+        width:20%;
+      }
+    }
+  
